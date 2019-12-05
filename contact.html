@@ -7,14 +7,17 @@
     <link rel="stylesheet" href="Assets/CSS/style.css">
     <title>Contact</title>
 </head>
+
 <body>
-    <header class=top>
-        <h1 class=name>Daniel Fenichel</h1>
-        <nav class=menu>
-            <a href="index.html">About</a> |
-            <a href="portfolio.html">Portfolio</a> |
-            <a href="contact.html">Contact</a>
-        </nav>
+    <header>
+        <div class="top">
+            <h1 class="name">Daniel Fenichel</h1>
+            <nav class="menu">
+                <a href="index.html">About</a> |
+                <a href="portfolio.html">Portfolio</a> |
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
     </header>
 
     <div class="container">
@@ -22,15 +25,16 @@
         <hr>
         <form action="#">
             <label for="name">Name</label> <br>
-            <input type="text"> <br>
+            <input type="text" id="name" name="name" placeholder="John Smith"> <br>
             <label for="email">Email</label> <br>
-            <input type="text"> <br>
+            <input type="text" id="email" name="email" placeholder="example@gmail.com"> <br>
             <label for="message">Message</label> <br>
-            <input type="text"> <br>
+            <input type="text" id="message" name="message"> <br>
             <input type="submit" value="Submit">
         </form>
     </div>
 
     <footer class="copyright">Copyright &copy; 2019</footer>
 </body>
+
 </html>

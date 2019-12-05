@@ -1,0 +1,54 @@
+/* index.html styling */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/backgroundimage.png);
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    top: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: solid 1px #cccccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.top {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.name {
+    position: absolute;
+    float: left;
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin: auto;
+    padding: 10px;
+    top: 0;
+}
+
+.menu {
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 20;
+    margin: auto;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
