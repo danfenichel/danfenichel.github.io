@@ -54,6 +54,11 @@ header {
     margin: auto;
 }
 
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
 /* About Content */
 
 .container {
@@ -97,7 +102,7 @@ h2 {
     color: white;
     height: 50px;
     padding: 30px;
-    border-top: 10px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
 }
 
 /* contact form */
@@ -115,5 +120,95 @@ input {
 }
 
 .submit {
-    width: auto;
+    width: 100px;
+    background-color: #4aaaa5;
+    color: white;
+    border: none;
+    padding: auto;
+}
+
+/* portfolio */
+.pics {
+    height: 140px;
+    width: 140px;
+    float: left;
+    z-index: 1;
+}
+
+.items {
+    background-color: #4aaaa5;
+    color: white;
+    width: 140px;
+    height: 30px;
+    text-align: center;
+    z-index: 2;
+    position: absolute;
+    top: 300px;
+}
+
+#item1 {
+    left: 120px;
+    top: 200px;
+}
+
+#pic1 {
+    margin-left: 100px;
+}
+
+#item2 {
+    left: 390px;
+    top: 200px;
+}
+
+#pic2 {
+    margin-left: 125px;
+}
+
+#item3 {
+    left: 665px;
+    top: 200px;
+}
+
+#pic3 {
+    margin-left: 150px;
+}
+
+#item4 {
+    left: 245px;
+    top: 360px;
+    width: 180px;
+}
+
+#pic4 {
+    height: 160px;
+    width: 180px;
+    margin-left: 230px;
+}
+
+#item5 {
+    left: 545px;
+    top: 360px;
+    width: 180px;
+}
+
+#pic5 {
+    height: 160px;
+    width: 180px;
+    margin-left: 120px;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+}
+
+.images {
+    position: relative;
+    display: inline-flex;
+    text-align: center;
+}
+
+#portfoliocontainer {
+    height: 420px;
+    position: relative;
 }
